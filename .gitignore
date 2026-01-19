@@ -1,0 +1,21 @@
+# Arduino IDE
+*.elf
+*.hex
+*.bin
+*.lock
+*.prefs
+build/
+*.ino.cpp
+*.ino.d
+
+# PlatformIO
+.pio/
+.pioenvs/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS Generated
+.DS_Store
+Thumbs.db
