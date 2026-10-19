@@ -12,9 +12,11 @@ We love your input! We want to make contributing to this project as easy and tra
 1. Fork the repo and create your branch from `main`.
 2. If you've added code that should be tested, add tests.
 3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+4. For firmware changes, compile [game/game.ino](game/game.ino) for your ESP8266 board using the dependencies in [README.md](README.md). Include the board, ESP8266 core, library versions, and compile result in your pull request.
+5. If hardware is available, check the OLED, jump button, collision/restart flow, and buzzer. State which checks you ran; if hardware was unavailable, say so.
+6. Open a pull request describing the change and its validation.
+
+This repository currently has no automated test suite or lint command. For documentation-only changes, verify that local links and referenced paths resolve, and check the diff for whitespace errors.
 
 ## Any contributions you make will be under the MIT Software License
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
